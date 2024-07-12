@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 1px solid lightgray;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav a :hover {
+    color: dodgerblue;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: whitesmoke;
+}
+
+.hero-content {
+    max-width: 50px;
+}
+
+.hero-content h1 {
+    font-size: 3;
+    margin-bottom: 202px;
+}
+
+.hero-content p {
+    margin-bottom: 20px;
+}
+
+.hero-content button {
+    padding: 20px 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-image img {
+    max-width: 100;
+    height: auto;
+}
+
+.categories,
+.futur-products,
+.latest-products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.category-gird,
+.product-gird {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category img,
+.product img {
+    max-width: 100;
+    border-radius: 20px;
+}
+
+.product {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.product h3 {
+    margin: 10px 0px;
+}
+
+.product p {
+    margin: 10px 0px;
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.product button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
